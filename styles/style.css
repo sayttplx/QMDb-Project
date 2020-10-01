@@ -1,0 +1,51 @@
+:root {
+    --max-width: 1000px;
+    --color-search-bar: #F3F3FE;
+    --background-color: #747272;
+}
+
+body {
+    max-width: var(--max-width);
+    margin: 0 auto;
+
+}
+
+body > header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+body > header img, a {
+    margin: 1rem;
+}
+
+body > header img {
+    padding: 0 1rem;
+    margin: 5px;
+}
+
+.input_field {
+    width: 15rem;
+    margin: 1rem;
+    height: 1.3rem;
+    border: 0;
+    border-radius: 4px;
+    padding: 0;
+    text-align: center;
+    background-color: var(--color-search-bar);
+
+}
+
+.search_bar {
+    display: flex;
+    justify-content: center;
+    background: var(--background-color)
+}
+
+
+
+
+
+
