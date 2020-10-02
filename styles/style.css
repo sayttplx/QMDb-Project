@@ -7,7 +7,6 @@
 body {
     max-width: var(--max-width);
     margin: 0 auto;
-
 }
 
 body > header {
@@ -23,7 +22,7 @@ body > header img, a {
 
 body > header img {
     padding: 0 1rem;
-    margin: 5px;
+    margin: .3rem;
 }
 
 header aside {
@@ -47,6 +46,44 @@ header aside {
     background: var(--background-color)
 }
 
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: .3rem;
+}
+
+.grid_item_top_cards {
+    box-shadow: 0 0 2rem rgba(0,0,0,.1);
+}
+
+.grid_item_top_cards figure {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.grid_item_top_cards figure img {
+    width: 100%; 
+}
+
+.left > figure > figcaption {
+    position: absolute;
+    bottom: 0;
+    padding: 0 .5rem;
+    color: white;
+    text-shadow: black 0px 0px 10px;
+}
+
+.right > figure > figcaption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 .5rem;
+    color: white;
+    text-align: end;
+    text-shadow: black 0px 0px 10px;
+}
+
  section img {
     width: 100%; 
 }
@@ -54,9 +91,4 @@ header aside {
 footer {
     background: var(--background-color);
 }
-
-
-
-
-
 
