@@ -26,22 +26,33 @@ body > header img {
     margin: 5px;
 }
 
+header aside {
+    display: flex;
+}
+
 .input_field {
     width: 15rem;
     margin: 1rem;
     height: 1.3rem;
-    border: 0;
     border-radius: 4px;
+    border: 0;
     padding: 0;
     text-align: center;
     background-color: var(--color-search-bar);
-
 }
 
 .search_bar {
     display: flex;
     justify-content: center;
     background: var(--background-color)
+}
+
+ section img {
+    width: 100%; 
+}
+
+footer {
+    background: var(--background-color);
 }
 
 
