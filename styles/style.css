@@ -5,9 +5,39 @@
     --text-color: #FFFFFF;
 }
 
+h1 {
+    font-size: 25px;
+    font-family: 'Ruda', sans-serif;
+    margin: 0;
+    color: #EFC103;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Ruda', sans-serif;
+    color: #EFC103;
+
+}
+
+a, p, input {
+    font-size: 16px;
+    font-family: 'Ruda', sans-serif;
+    margin-top: 0;
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: #EFC103;
+  }
+
 body {
     max-width: var(--max-width);
     margin: 0 auto;
+    background-color: #575757;
 }
 
 body > header {
@@ -15,7 +45,10 @@ body > header {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    
+}
+
+figure > img {
+    width: 100%; 
 }
 
 body > header img, a {
@@ -64,10 +97,6 @@ header aside {
     padding: 0;
 }
 
-figure > img {
-    width: 100%; 
-}
-
 .left > figure > figcaption {
     position: absolute;
     bottom: 0;
@@ -109,6 +138,7 @@ figure > img {
 
 .bottom_cards article p {
     padding: 0 1rem;
+    color: #FFFFFF;
 }
 
 footer {
