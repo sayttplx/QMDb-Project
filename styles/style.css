@@ -21,14 +21,14 @@ body a {
 }
 
 body a:hover {
-    background-color: var(--theme-color);
     transform: scale(1.3);
+    background-color: var(--theme-color);
   }
 
 h1 {
     font-size: 25px;
-    font-family: var(--theme-font);
     margin: 0;
+    font-family: var(--theme-font);
     color: var(--theme-color);
 }
 
@@ -40,8 +40,8 @@ h2 {
 
 a, p, input, form, figcaption {
     font-size: 16px;
-    font-family: var(--theme-font);
     margin-top: 0;
+    font-family: var(--theme-font);
 }
 
 figure > img {
@@ -60,8 +60,8 @@ body > header a {
 }
 
 body > header img {
-    padding: 0 1rem;
     margin: .3rem;
+    padding: 0 1rem;
 }
 
 header aside {
@@ -87,7 +87,11 @@ header aside {
     background: var(--bg-color)
 }
 
-/* images with figcaps inside */
+input {
+    cursor: pointer;
+}
+
+/* images with figcaps inside left/right */
 
 .grid_container {
     display: grid;
@@ -96,7 +100,6 @@ header aside {
     padding-top: .3rem;
     text-shadow: black 0px 0px 10px;
     color: var(--text-color);
-    
 }
 
 .grid_item_top_cards {
@@ -142,8 +145,8 @@ header aside {
 .bottom_cards {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 1rem;
     padding: 1rem;
+    gap: 1rem;
 }
 
 .bottom_cards article {
@@ -156,8 +159,8 @@ header aside {
 }
 
 .bottom_cards article h2 {
-    padding: 0 1rem;
     margin: .5rem 0;
+    padding: 0 1rem;
 }
 
 .bottom_cards article p {
@@ -170,19 +173,14 @@ header aside {
 footer {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-evenly;
+    align-items: center;
     background: var(--bg-color);
 }
 
-footer a {
-    text-decoration: none;
-    color: black;
-}
-
 footer a:hover {
-    background-color: var(--theme-color);
     transform: scale(1.3);
+    background-color: var(--theme-color);
   }
 
   /* gallery page */
@@ -222,9 +220,9 @@ nav {
     top: 0;
     left: 0;
     height: 100vh;
-    background: var(--bg-color);
     transform: translateX(-100%);
     transition: all .3s ease;
+    background: var(--bg-color);
 }
 
 nav.open {
@@ -237,7 +235,6 @@ nav.open {
 nav a {
     text-decoration: none;
     display: grid;
-    color:  black;
     margin-bottom: 2rem;
     opacity: 0;
     transition: all .9s ease;
@@ -262,9 +259,9 @@ nav.open a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: var(--bg-color);
-    padding: 1rem;
     margin: 1rem;
+    padding: 1rem;
+    background: var(--bg-color);
 }
 
 .sign_up_form input {
