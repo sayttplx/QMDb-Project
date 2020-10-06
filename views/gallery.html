@@ -1,69 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <title>gallery</title>
 </head>
+
 <body>
 
     <header class="gallery_logo">
-        <img src="/images/QMDb_LOGO.svg" alt="logo">
+
+        <img src="../images/QMDb_LOGO.svg" alt="logo">
+
     </header>
-<main>
 
-    <section class="gallery_container">
-        
-    <img src="/images/dumma.jpg" alt="despicable me minions">
-    <img src="/images/dumma.jpg" alt="despicable me minions">
-    <img src="/images/dumma.jpg" alt="despicable me minions">
-    <img src="/images/dumma.jpg" alt="despicable me minions">
-    <img src="/images/dumma.jpg" alt="despicable me minions">
-    <img src="/images/dumma.jpg" alt="despicable me minions">
-    <img src="/images/dumma.jpg" alt="despicable me minions">
-    <img src="/images/dumma.jpg" alt="despicable me minions">
-    <img src="/images/dumma.jpg" alt="despicable me minions">
-    <img src="/images/dumma.jpg" alt="despicable me minions">
-    <img src="/images/dumma.jpg" alt="despicable me minions">
-    <img src="/images/dumma.jpg" alt="despicable me minions">
+    <main>
 
-    </section>
-    
+        <section class="gallery_container">
 
-</main>
+            <img src="../images/minions.jpg" alt="despicable me minions">
+            <img src="../images/minions.jpg" alt="despicable me minions">
+            <img src="../images/minions.jpg" alt="despicable me minions">
+            <img src="../images/minions.jpg" alt="despicable me minions">
+            <img src="../images/minions.jpg" alt="despicable me minions">
+            <img src="../images/minions.jpg" alt="despicable me minions">
+            <img src="../images/minions.jpg" alt="despicable me minions">
+            <img src="../images/minions.jpg" alt="despicable me minions">
+            <img src="../images/minions.jpg" alt="despicable me minions">
+            <img src="../images/minions.jpg" alt="despicable me minions">
+            <img src="../images/minions.jpg" alt="despicable me minions">
+            <img src="../images/minions.jpg" alt="despicable me minions">
+
+        </section>
+
+    </main>
+
+        <!-- slide in menu -->
 
     <nav>
+
         <aside>
-        <a href="/index.html">home</a>
-        <a href="#">news</a>
-        <a href="#">sign up</a>
-        <a href="#">log in</a>
-        <a href="#">contact</a>
-      
-         </aside>
+            <a href="../index.html">home</a>
+            <a href="../views/news.html">news</a>
+            <a href="../views/signup.html">sign up</a>
+            <a href="../views/login.html">log in</a>
+            <a href="../views/contact.html">contact</a>
+        </aside>
 
     </nav>
+
     <a href="#" class="toggle"></a>
 
-</body> 
+</body>
 
-  <script>var toggle = document.querySelector('.toggle');
+<script>
 
-    toggle.addEventListener('click', (e) => { 
-       
-       openNavigation()
-    
+    var toggle = document.querySelector('.toggle');
+    toggle.addEventListener('click', (e) => {
+
+        openNavigation()
+
     });
-    
+
     function openNavigation() {
 
-       console.log('clicked');
-       let nav = document.querySelector('nav');
-       nav.classList.toggle('open');
+        console.log('clicked');
+        let nav = document.querySelector('nav');
+        nav.classList.toggle('open');
     }
-    </script>
+</script>
 
 </body>
+
 </html>
